@@ -1,0 +1,50 @@
+.chessboard {
+    display: flex;
+    align-items: flex-start;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    border: 0.01px solid black; /* Agrega un borde a cada celda negra */
+ 
+}
+
+.number,
+.label {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    border: 0.2px solid black; /* Agrega un borde a cada celda negra */
+
+}
+
+.white {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    font-size: 2em;
+    vertical-align: middle;
+    border: 1px solid black; /* Agrega un borde a cada celda blanca */
+}
+
+.black {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(128, 120, 120);
+    font-size: 2em;
+    vertical-align: middle;
+    border: 1px solid black; /* Agrega un borde a cada celda negra */
+}
+
+
+
+
+
